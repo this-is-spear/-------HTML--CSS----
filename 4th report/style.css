@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Gamja+Flower&family=Song+Myung&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Dongle', sans-serif;
+}   
+h1,h2,h3,h4,ul {
+    color: aqua;
+    padding-left: 20px;
+    max-width:fit-content;
+}
+p, li{
+    color: aquamarine;
+    padding-left: 20px;
+}
+table{
+    width: 80%;
+    color: aqua;
+    padding-left: 20px;
+}
+a{
+    color: aquamarine;
+}
+td{
+    border: 1px solid aqua;
+}
+.innerP{
+    padding-left: 40px;
+}
+.outerP{
+    font-size: 20px;
+}
+.main{
+    font-family: 'Song Myung', serif;
+}
+.last{
+    font-family: 'Gamja Flower', cursive;
+}
+.divider {
+    padding-top: 20px;
+    border-bottom: 1px solid aqua;
+}
