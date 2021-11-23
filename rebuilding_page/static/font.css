@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Gamja+Flower&family=Song+Myung&display=swap');
+html{
+    font-size: 20px;
+    padding: 10px;
+}
+
+body{
+    font-family: 'Gamja Flower', cursive;
+    font-size: 1.5rem;
+}

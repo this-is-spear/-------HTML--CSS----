@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/font.css" >
+    <link rel="stylesheet" href="static/layout.css" >
+    <link rel="stylesheet" href="static/home.css" >
+</head>
+<body>
+
+    <div class="bookcover">
+        <div class="bookdot">
+            <div class="page flex_row">
+                <div class="flex_item flex_column navigation_area">
+                    <!-- navigation_area -->
+                    <div class="flex_item navigation_head">
+                        <!-- navigation_head -->
+                        TODAY <span class='carrot'>99</span> | TOTAL 1130
+                    </div>
+                    <div class="flex_item flex_column navigation_body">
+                        <!-- navigation_body -->
+                        <div class="flex_item flex_column profile_area">
+                            <!-- profile_area -->
+                            <div class="flex_item profile_img_area">
+                                <img id="merona" src="./static/images/merona.jpg"></img>
+                            </div>
+                            <div class="flex_item profile_content">
+                                <!-- profile_content -->
+                                안녕하세요!!<br> 웹 개발을 배우고 있는 Spear 입니다!! 
+                            </div>
+                            <div class="flex_item profile_name">
+                                <!-- profile_name -->
+                                Spear
+                            </div>
+                        </div>
+                        <!-- flex 아이템 들에 뒤로 밀려나 제일 마지막에 써지도록 하는 게 맞는지 모르겠음-->
+                        <!-- flex:0 을 이용해 제일 마지막으로 배치-->
+                        <div class="flex_item navigation_end_content">
+                            <!-- navigation_end_content -->
+                            다들 놀러오세요 ^^
+                            <div class="profile-dropdown">
+                                <div class="dropdown-btn">
+                                  <div class="dropdown-title">파도타기</div>
+                                  <div class="triangle-down"></div>
+                                </div>
+                                <div class="dropdown-content">
+                                  <a href="https://cafe.naver.com/codeuniv" target="_blank">코뮤니티로 가기</a>
+                                  <a href="https://www.instagram.com/coding_comu/" target="_blank">인스타그램으로 가기</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex_item flex_column container_area">
+                    <!-- container_area -->
+                    <div class="flex_item flex_row container_head">
+                        <!-- container_head -->
+                        <div class="flex_item container_left_head">
+                            <!--container_left_head-->
+                            <p>지나가요옷,,,,!! ╰(*°▽°*)╯</p>
+                        </div>
+                        <div class="flex_item container_right_head">
+                            <!--container_right_head-->
+                            <p>https://github.com/Imaspear</p>
+                        </div>
+                    </div>
+                    <div class="flex_item flex_column container_body">
+                        <!-- container_body -->
+                        <div class="flex_item flex_column update_news_box">
+                            <!-- update_news_box -->
+                            <div class="flex_item update_news_header">
+                                Update Item
+                            </div>
+                            <div class= "flex_item flex_row update_news_body">
+                              <div class= "flex_item flex_column">
+                                <div class="flex_item flex_row update_news_item">
+                                  <div class = 'flex_item photo_badge'>사진첩</div>
+                                  <div class = 'flex_item update_left_item'>내 사진 본적 있늬?</div>
+                                </div>
+                                <div class="flex_item flex_row update_news_item">
+                                  <div class = 'flex_item book_badge'>게시판</div>
+                                  <div class = 'flex_item'>이게 바로 웹..?</div>
+                                </div>
+                                <div class=" flex_item flex_row update_news_item">
+                                  <div class = 'flex_item book_badge'>게시판</div>
+                                  <div class = 'flex_item head_item'>갈수록 난장판이 되어 가는</div>
+                                </div>
+                                <div class="flex_item flex_row update_news_item">
+                                  <div class = 'flex_item photo_badge'>사진첩</div>
+                                  <div class = 'flex_item head_item'>나의 슬픈 코드</div>
+                                </div>
+                              </div>
+                              <div class="flex_item flex_column">
+                                <div class="flex_item flex_row list_item">
+                                    <div class="flex_item flex_row">
+                                        <div class="item_of_book_list">다이어리</div>
+                                        <div class="num_of_book_list">0/25</div>
+                                    </div>
+                                    <div class="flex_item flex_row">
+                                        <div class="item_of_book_list">사진첩</div>
+                                        <div class="num_of_book_list">0/25</div>
+                                    </div>
+                                </div>
+                                <div class="flex_item flex_row list_item">
+                                    <div class="flex_item flex_row">
+                                        <div class="item_of_book_list">게시판</div>
+                                        <div class="num_of_book_list">0/25</div>
+                                    </div>
+                                    <div class="flex_item flex_row">
+                                        <div class="item_of_book_list">방명록</div>
+                                        <div class="num_of_book_list">0/25</div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="flex_item flex_column miniroom_box">
+                            <!-- miniroom_box -->
+                            <div class =" flex_item miniroom_box_header">
+                                Mini room
+                            </div>
+                            <div class="flex_item flex_row miniroom_box_body">
+                                <!-- body -->
+                                    <img  id="otter" src="./static/images/otter.gif"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex_item flex_column menu_container">
+                    <!-- button_area -->
+                    <a href="./home.html" target="_blank">홈</a>
+                    <a href="./photo.html" target="_blank">다이어리</a>
+                    <a href="" target="_blank">사진첩</a>
+                    <a href="" target="_blank">방명록</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
