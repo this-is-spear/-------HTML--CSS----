@@ -1,4 +1,8 @@
 
+.container_body{
+    overflow-y:auto;
+}
+
 .photo_item img{
     margin: auto;
     width: 100%;
