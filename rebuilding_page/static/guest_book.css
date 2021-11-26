@@ -1,0 +1,56 @@
+
+.guest_book_item{
+    flex:1;
+    font-size: 1rem;
+    margin: 5px;
+    padding: 10px;
+}
+.guest_boot_head{
+    flex:0;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    padding: 0px 10px;
+}
+
+.guest_book_body{
+    margin: 5px;
+    padding: 5px;
+}
+
+.guest_book_img{
+    flex: 0 0 8rem;
+    height: 8rem;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item_1{
+    background-image: url("./images/guest_book_img/20210825_193634.jpg");
+}
+
+.item_2{
+    background-image: url("./images/guest_book_img/20210903_170803.jpg");
+}
+
+.item_3{
+    background-image: url("./images/guest_book_img/20211121_102744.jpg");
+}
+.item_4{
+    background-image: url("./images/guest_book_img/20211124_170431.jpg");
+}
+
+.guest_book_img > img{
+    height: 8rem;
+    width: 100%;
+}
+
+.guest_book_txt{
+    margin: 5px;
+    padding: 10px;
+}
+
+.scrolling{
+    overflow:auto;
+}
